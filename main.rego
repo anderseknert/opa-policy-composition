@@ -11,7 +11,8 @@ deny[msg] {
 }
 
 deny[msg] {
-    msg := router[_policy_][_decision_]
+    policy := router[_]
+    msg := policy[_]
 }
 
 router[policy] = msg {
