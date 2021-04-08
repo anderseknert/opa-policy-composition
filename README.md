@@ -8,4 +8,4 @@ Example policies demonstrating policy composition in Rego. These example accompa
 
 Query OPA (use team1-3 as input, and try removing the `explain` attribute):
 
-`curl -d '{"team": "team1","explain": true}' http://localhost:8181`
+`curl -d '{"resource": "volume", "explain": true}' http://localhost:8181`
