@@ -1,6 +1,6 @@
 # opa-policy-composition
 
-Example policies demonstrating policy composition.
+Example policies demonstrating policy composition in Rego. These example accompany the [blog post](https://blog.styra.com/blog/dynamic-policy-composition-for-opa) on the same topic as found on the [Styra](https://www.styra.com) blog.
 
 ## Running
 
