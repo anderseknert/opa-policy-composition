@@ -9,3 +9,9 @@ Example policies demonstrating policy composition in Rego. These example accompa
 Query OPA (use team1-3 as input, and try removing the `explain` attribute):
 
 `curl -d '{"resource": "volume", "explain": true}' http://localhost:8181`
+
+Or if you prefer using `opa eval`:
+
+```shell
+opa eval -f pretty -d . 'data.main.decision with input as {"resource": "volume", "explain": true}'
+```
